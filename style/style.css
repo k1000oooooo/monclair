@@ -327,7 +327,7 @@ section h4 {
 /* marquee */
 
 main.borderTop{
-    border-bottom: 2px solid #CFD9DF;
+    border-bottom: 2px solid #B2B2B2;
     width: 90%;
     margin-left: 5%;
     
@@ -337,7 +337,7 @@ main.borderTop{
 }
 
 main.borderBottom{
-    border-bottom: 2px solid #CFD9DF;
+    border-bottom: 2px solid #B2B2B2;
     width: 90%;
     margin-left: 5%;
     opacity: 60%;

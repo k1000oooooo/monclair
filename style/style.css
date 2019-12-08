@@ -322,22 +322,34 @@ section h4 {
     font-size: 18px;
     text-align: center;
 }
+
+
+/* marquee */
+
 main.borderTop{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #CFD9DF;
     width: 90%;
     margin-left: 5%;
     
     margin-bottom: 0.3%;
-    opacity: 40%;
+    opacity: 60%;
 
 }
 
 main.borderBottom{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #CFD9DF;
     width: 90%;
     margin-left: 5%;
-    opacity: 40%;
+    opacity: 60%;
 }
+
+
+img.marquee {
+    margin:0.5%;
+    width: 12%;
+}
+
+/* marquee */
 
 
 /* BANNER DE VERAZ */

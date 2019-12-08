@@ -428,10 +428,18 @@ ul.footerItems {
     .logoMonclair {
         margin-left: 15%;
     }
-    #header img.WA{
+    #header img.WA {
         width: 65%;
-        margin-left: 80%;
+        margin-left: 10%;
         margin-top: 60%;
+    }
+
+    .dosTel {
+        font-size: 14px;
+        width: 180px;
+        margin-top: 6%;
+        margin-left: -10%;
+        font-family: Raleway;
     }
 
     .unTel {
@@ -460,11 +468,11 @@ ul.footerItems {
         margin-bottom: 4%;
         margin-left: 10%;
         width: 80%;
-        padding-left: 18%;
+        padding-left: 13%;
         padding-right: 5%;
         padding-top: 4%;
         padding-bottom: 3%;
-        font-size: 20px;
+        font-size: 18px;
         font-family: Raleway;
         font-weight: bold;
     }
@@ -475,16 +483,19 @@ ul.footerItems {
     img.linkItems {
         float: left;
         margin-top: 5%;
-        margin-left: 60%;
+        margin-left: 50%;
     }
-    img.linkItems:first-child {
-        margin-left: 65%;
+    
+
+    img.linkItems #moveUno {
+        margin-left: 10%;
     }
 
     img.linkItems2 {
-        width: 8%;
+        width: 12%;
         margin: 3%;
         margin-left: 30%;
+        margin-top: 3.7%;
     }
     p.linkItems2 {
         margin-top: 5%;

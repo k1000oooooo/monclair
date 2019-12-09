@@ -396,16 +396,16 @@ footer div {
     margin-bottom: 3%;
 }
  footer div:last-child {
-    padding-left: 5%;
+    padding-left: 1%;
 }
 footer div img{
     padding-top: 2%;
-    margin-left: 15%;
+    margin-left: 11%;
     width: 20%;
 
 }
 ul.footerItems {
-    margin-left: 0.5%;
+    margin-left: 1.5%;
     padding-left: 0.5%;
 }
 .footerItems li {
@@ -543,3 +543,136 @@ ul.footerItems {
     }
 
   }
+
+  /* tablets */
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .secCarousel {
+        display: none;
+    }
+    .textoCarousel {
+        color: black;
+        font-size: 12px;
+    }
+
+    div#buttonCorousel a {
+        width: 70%;
+    }
+
+    .dosTel {
+        font-size: 18px;
+        width: 220px;
+        margin-top: 4%;
+        margin-left: 5%;
+        font-family: Raleway;
+    }
+    #header img.WA {
+        width: 80%;
+        margin-left: 125%;
+        margin-top: 93%;
+    }
+
+    .unTel {
+        background-color: #eb1c74;
+        text-align: center;
+        font-size: 19px;
+        width: 23%;
+        padding: 1.5%;
+        margin-left: 9%;
+        margin-right: 1%;
+        margin-top: 5%;
+        color: white;
+        font-family: Raleway;
+    }
+    .garantia {
+        float: left;
+        border: 1.5px solid #FF0000;
+        margin-right: 15px;
+        width: 47.8%;
+        padding-left: 9%;
+        padding-right: 6%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 22px;
+        font-family: Raleway;
+        font-weight: bold;
+        margin-left: 0%;
+    }
+
+    p.linkItems {
+        margin-top: 3%;
+        color: white;
+        font-size: 15px;
+    }
+
+
+
+    img.linkItems {
+        margin-top: 3%;
+        margin-left: 65%;
+        height: 41%;
+    }
+    img.linkItems2 {
+        margin-top: 1%;
+        width: 7%;
+        margin-left: 32%;
+    }
+    p.linkItems2 {
+        margin-top: 2%;
+        margin-left: 11%;
+        color: white;
+        font-size: 18px;
+    }
+
+    .linkItemsDos:first-child {
+        margin-top: 1%;
+        color: #00b8e6;
+        font-size: 16px;
+    }
+    .linkItemsTres:first-child {
+        margin-top: 2%;
+    }
+    .linkItemsTres {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 0;
+        color: white;
+    }
+    footer div img {
+        padding-top: 2%;
+        margin-left: 24%;
+        width: 20%;
+    }
+
+    footer div:first-child {
+        overflow: hidden;
+        width: 50%;
+        margin-top: 6%;
+        margin-bottom: 3%;
+        margin-left: 3%;
+    }
+    .divTress {
+        margin-left: -7%;
+        width: 41%;
+        margin-top: 6%;
+    }
+    .divTres {
+        margin-left: 14%;
+        margin-bottom: 5%;
+        width: 15%;
+    }
+
+    ul.footerItems {
+        margin-left: 1.5%;
+        padding-left: 0.5%;
+    }
+
+    .footerItems li {
+        color: white;
+        font-size: 10px;
+    }
+    
+  }
+  

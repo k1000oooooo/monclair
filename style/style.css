@@ -429,7 +429,7 @@ ul.footerItems {
         margin-left: 15%;
     }
     #header img.WA {
-        width: 65%;
+        width: 60%;
         margin-left: 10%;
         margin-top: 60%;
     }
@@ -438,7 +438,7 @@ ul.footerItems {
         font-size: 14px;
         width: 180px;
         margin-top: 6%;
-        margin-left: -10%;
+        margin-left: -15%;
         font-family: Raleway;
     }
 
@@ -453,12 +453,22 @@ ul.footerItems {
         margin-top: 5%;
         
     }
+    .logoMail {
+        width: 15%;
+        background-color: #02b7e4;
+        margin-top: 5%;
+        padding: 1.5% 0;
+    }
 
     div#header.pos-f-t {
         margin-left: -2%;
         margin-top: -0.1%;
         width: 5%;
         border: none;
+    }
+
+    .secCarousel {
+        display: none;
     }
 
     .garantia {
@@ -482,11 +492,18 @@ ul.footerItems {
     }
     img.linkItems {
         float: left;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: 50%;
     }
-    
 
+    p.linkItems {
+        margin-top: 7%;
+        padding-right: -15%;
+    }
+    
+    img#meveUno {
+        margin-left: 5%;
+    }
     img.linkItems #moveUno {
         margin-left: 10%;
     }
